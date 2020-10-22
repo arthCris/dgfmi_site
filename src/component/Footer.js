@@ -1,23 +1,25 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-
+import './index.css';
 const useStyles = makeStyles((theme) => ({
     root: {
+      position: 'fixed',
       display: 'flex',
       flexWrap: 'wrap',
       overflow: 'hidden',
+      bottom: 0,
       backgroundColor: theme.palette.background.paper,
     },
   }));
 
-const AppFooter = () => {
+const Footer = () => {
     const classes = useStyles();
     
     return (
-        <div className={classes.root}>
-
+        <div className='footerContainer'>
+          <center>footer</center>
         </div>
     )
 }
 
-export default AppFooter;
+export default Footer;

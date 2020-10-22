@@ -20,9 +20,7 @@ const Header = () => {
 
     return (
         <React.Fragment>
-            <div className={classes.root}>
-                
-            </div>
+            <div className={classes.root} />
         </React.Fragment>
     )
 }

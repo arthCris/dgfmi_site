@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from '@material-ui/core';
+import {Container, Grid} from '@material-ui/core';
 import Menu from '../../component/Menu';
 
 const Activity = () => {
@@ -7,7 +7,7 @@ const Activity = () => {
         <>
             <Menu />
             <Container>
-                Activity
+                <Grid ></Grid>
             </Container>
         </>
     )
