@@ -9,10 +9,10 @@ import './App.css';
 export default function App() {
   return (
     <>
-        <Route exact path="/dgfmi" component={Landing} />
-        <Route path="dgfmi_site/dashboard" component={DashBoard} />
-        <Route path="dgfmi_site/activity" component={Activity} />
-        <Route path="dgfmi_site/about" component={About} />
+        <Route exact path="/dgfmi_site" component={Landing} />
+        <Route path="/dgfmi_site/dashboard" component={DashBoard} />
+        <Route path="/dgfmi_site/activity" component={Activity} />
+        <Route path="/dgfmi_site/about" component={About} />
     </>
   );
 }
