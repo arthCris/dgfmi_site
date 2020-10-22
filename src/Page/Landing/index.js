@@ -14,7 +14,7 @@ const Landing = () => {
             {/* <Header /> */}
             <div style={{backgroundColor: 'rgba(196, 221, 191, 1)', display: 'flex', minHeight: '100vh', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
                 <center className="header">DIVINE GOVERNMENT FILIPINO MARTIALS INC.</center>
-                <center className="link-header"><NavLink className='App-link link' to="/dashboard">Get Started</NavLink></center>
+                <center className="link-header"><NavLink className='App-link link' to="/dgfmi_site/dashboard">Get Started</NavLink></center>
             </div>
             <Footer />
         </>

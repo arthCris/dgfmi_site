@@ -36,22 +36,22 @@ const Menu = () => {
             alignItems="baseline"
             style={{ backgroundColor: 'rgba(115, 164, 83, 1)' }}>
           <Grid container item xs={2} justify="center">
-            <NavLink className={classes.nav} to="/">DGFMI</NavLink>
+            <NavLink className={classes.nav} to="/dgfmi_site">DGFMI</NavLink>
           </Grid>
           <Grid container item xs={4} />
           <Grid container item xs={1}>
           <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
-            <Link className='link' to="/dashboard">Dashboard</Link>
+            <Link className='link' to="/dgfmi_site/dashboard">Dashboard</Link>
           </Button>
           </Grid>
           <Grid container item xs={1}>
           <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
-            <Link className='link' to="/about">About Us</Link>
+            <Link className='link' to="/dgfmi_site/about">About Us</Link>
           </Button>
           </Grid>
           <Grid container item xs={1}>
           <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
-            <Link className='link' to="/activity">Activity</Link>
+            <Link className='link' to="/dgfmi_site/activity">Activity</Link>
           </Button>
           </Grid>
         </Grid>
